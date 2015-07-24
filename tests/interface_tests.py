@@ -9,11 +9,11 @@ def create_test_beanz():
 class TestBeanzInterface(unittest.TestCase):
 
     def test_creations(self):
-        testlink = create_test_beanz
+        testlink = create_test_beanz()
         self.assertEqual(testlink.score, 0)
 
     def test_upvotes(self):
-        testlink = create_test_beanz
+        testlink = create_test_beanz()
         testlink.upvote()
         testlink.upvote()
         testlink.downvote()
