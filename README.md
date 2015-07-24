@@ -8,3 +8,5 @@ can help you catch bugs before they become an unexpectedly big issue.
 
 To keep this focused on automated testing, this little demo will not cover
 posting the resulting python package on pypi.
+
+[![Build Status](https://travis-ci.org/frrmack/travis-demo.svg?branch=master)](https://travis-ci.org/frrmack/travis-demo)
