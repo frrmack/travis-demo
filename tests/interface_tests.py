@@ -1,6 +1,7 @@
 import unittest
 from meowmeowbeanz import Meowmeowbeanz
 
+
 def create_test_beanz():
     return Meowmeowbeanz("http://imgur.com/gallery/np9XnzV", "Tron Swanson")
 
@@ -18,7 +19,3 @@ class TestBeanzInterface(unittest.TestCase):
         testlink.downvote()
         testlink.upvote()
         self.assertEqual(testlink.score, 2)
-
-
-
-
