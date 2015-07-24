@@ -1,11 +1,10 @@
 class MeowMeowBeanz(object):
 
-
     def __init__(self, content, title):
         self.title = title
         self.content = content
         self.score = 0
-    
+
     def upvote(self):
         self.score += 1
 
