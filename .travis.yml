@@ -1,0 +1,16 @@
+language: python
+
+python:
+    - "2.7"
+
+# command to install dependencies
+install: "pip install -r REQUIREMENTS-DEV"
+    
+# command to run tests
+script:
+    - pep8 meowmeowbeanz
+    - nosetests
+    - echo "Meow meow beanz works beautifully!"
+
+
+		
