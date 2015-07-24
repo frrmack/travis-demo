@@ -1,0 +1,9 @@
+import unittest
+from meowmeowbeanz import Meowmeowbeanz
+
+
+class BeanzInterface(unittest.TestCase):
+
+    def test_creations(self):
+
+        Meowmeowbeanz
