@@ -1,9 +1,9 @@
 import unittest
-from meowmeowbeanz import Meowmeowbeanz
+from meowmeowbeanz import MeowMeowBeanz
 
 
 def create_test_beanz():
-    return Meowmeowbeanz("http://imgur.com/gallery/np9XnzV", "Tron Swanson")
+    return MeowMeowBeanz("http://imgur.com/gallery/np9XnzV", "Tron Swanson")
 
 
 class TestBeanzInterface(unittest.TestCase):
